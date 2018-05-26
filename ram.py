@@ -100,7 +100,7 @@ def get_days_with_more_errors():
     # Print Results
     print('\nDAYS WITH MORE THAN 1% ERRORS:')
     for i in results:
-        date = i[0].strftime('%B %d, %Y')
+        date =    i[0].strftime('%B %d, %Y')
         errors = str(round(i[1]*100, 1)) + "%" + " errors"
         print(date + " -- " + errors)
 
