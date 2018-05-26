@@ -2,13 +2,13 @@
 
 import psycopg2
 
-DBNAME = "news"
+BOOKS = "news"
 
 
 def  ranga(query):
     """Connects to the database, runs the query passed to it,
     and returns the results"""
-    db = psycopg2.connect('dbname=' + DBNAME)
+    db = psycopg2.connect('dbname=' + BOOKS)
     c = db.cursor()
     c.execute(query)
     rows = c.fetchall()
