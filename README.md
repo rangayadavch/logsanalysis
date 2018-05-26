@@ -1,9 +1,7 @@
 # Logsanalysis project
 ## Description
   This project is about to find top three article,top three authors and days with more than 1% of errors.
-## Procedure 
-
-## To Run
+## Procedure to Run
 
  ### You will need:
  - Python3
